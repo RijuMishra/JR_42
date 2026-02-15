@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:9191/api",
+  baseURL: "https://jr-42.onrender.com/api",
 });
 
 // Request interceptor — attach JWT token

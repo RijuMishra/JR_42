@@ -50,7 +50,7 @@ export default function ImportExport() {
 
     const handleExport = async () => {
         // For demo purposes, we'll try to trigger a download window
-        window.location.href = "http://localhost:9191/api/export/components";
+        window.location.href = "https://jr-42.onrender.com/api/export/components";
     };
 
     return (
